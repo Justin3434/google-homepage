@@ -1,0 +1,114 @@
+body {
+  font-family: arial,sans-serif;
+  font-size: small;
+}
+ul {
+  list-style: none;
+  z-index: 10;  
+  position: absolute;  
+  right: 0;  
+  top: 0;
+}
+
+.picture {
+  background-image: url(//lh3.googleusercontent.com/-QytQ-X50jY4/AAAAAAAAAAI/AAAAAAAAAAA/ADhl2yoSr4bkBmgI1EO7wQRqggAiF4kklg/s32-c-mo/photo.jpg);
+}
+.me{
+      -webkit-background-size: 32px 32px;
+    background-size: 32px 32px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    display: block;
+    margin: -1px;
+    overflow: hidden;
+    position: relative;
+    height: 32px;
+    width: 32px;
+    z-index: 0;
+}
+
+.bell{
+      background-color: rgba(0,0,0,.55);
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 20px;
+    margin: 5px;
+    padding: 0 2px;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+}
+
+.circle{
+      background-image:     url('//ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+    -webkit-background-size: 528px 68px;
+    background-size: 528px 68px;
+}
+
+.middle{
+      background-position: -194px -21px;
+}
+
+li{
+  display: inline;
+ 
+}
+#main {
+  text-align: center;
+}
+
+#google {
+  font-size: 600%;  
+  padding: 10px;
+  margin-top: 175px;
+  text-align: center;
+}
+
+#searchbar {
+  width: 60%;
+  margin: 20px auto 30px auto;
+  padding: 6px;
+}
+
+#googlesearch {
+    height: 36px;
+    line-height: 27px;
+      background-image: -webkit-gradient(linear,left top,left bottom,from(#f5f5f5),to(#f1f1f1));
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    -webkit-border-radius: 2px;
+    -webkit-user-select: none;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+}
+footer {
+  bottom: 0;
+   font-size: 10pt;
+  height: 35px;
+   position: absolute;
+   width: 100%
+}
+#footer {
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    line-height: 40px;
+    min-width: 980px;
+}
+.alignfooter {
+  display: inline;
+  margin-left: 20px;
+}
